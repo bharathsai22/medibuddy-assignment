@@ -1,0 +1,269 @@
+/* Write your CSS code here */
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-img {
+    background-color: #ffffff;
+    width: 100px;
+    margin-top: 31px;
+  }
+  
+  .user-name {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #12022f;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .user-designation {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #616e7c;
+  }
+  .search{
+    width:150px;
+    height:150px;
+  }
+  .rowwise{
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    padding-left:70px;
+  }
+  .image{
+    margin-right:80px;
+
+  }
+  .baby-card{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(245, 197, 205);
+    padding:30px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  .baby{
+    height:200px;
+    width:100px;
+    margin-left:30px;
+  }
+  .heading1{
+    font-size:25px;
+  }
+  .paragraph1{
+    font-size: 15px;
+  }
+  .heading2{
+    font-size:25px;
+    color: rgb(240, 98, 121);
+  }
+  .roww{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(252, 254, 255);
+    width: 80%;
+    margin-left: 50px;
+  }
+  .featured-container{
+    border-radius: 10px;
+    background-color: rgb(184, 216, 243);
+    width: 90%;
+  }
+  .heading3{
+    font-size:25px;
+    color:rgb(85, 177, 247)
+  }
+  .head{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .button{
+    padding:10px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow:2px 3px;
+    }
+  .button1{
+    border-width: 2px;
+    color: rgb(175, 236, 251);
+    border-color: rgb(156, 208, 251);
+  }
+  .sponsered{
+    border-radius: 10px;
+    background-color: rgb(252, 254, 255);
+    width: 80%;
+    margin-left: 50px;
+    padding: 30px;
+  }
+.paragraph{
+  color: rgb(80, 177, 247);
+}
+.img{
+  width: 500px;
+  margin-left: 70px;
+  margin:20px;
+}
+.baby-card1{
+  background-color: rgb(254, 245, 245);
+
+}
+.baby1{
+  width: 80px;
+  padding: 30px;
+  width: 90%;
+}
+.book-card{
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  padding:20px;
+  border-radius: 20px;
+  box-shadow:2px 4px;
+  margin-bottom: 15px;
+}
+.heading5{
+  font-size:20px;
+  color:#12022f;
+}
+.heading6{
+  font-size:15px;
+  color:#12022f;
+}
+.paragraph2{
+  font-size: 15px;
+  font-family: "Roboto";
+}
+.book{
+  width: 180px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.labs-card{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  padding:30px;
+  border-radius: 20px;
+
+  margin-bottom: 15px;
+  width: 500px;
+  box-shadow:2px 4px;
+}
+.labs{
+  width: 475px;
+  margin-bottom: 10px;
+}
+.lab{
+  align-self: flex-end;
+}
+.heading8{
+  font-size: 20px;
+}
+.span{
+  font-size: 20px;
+  color:rgb(54, 169, 240)
+}
+.trust-card{
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  padding:30px;
+  margin-bottom: 15px;
+  justify-content: space-around;
+
+}
+.heading9{
+  font-size: 20px;
+}
+.trust{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.trusted{
+  display:flex;
+  flex-direction: row;
+  
+}
+.trustes{
+  display:flex;
+  width:500px;
+  flex-direction: row;
+}
+.lab{
+  margin: 20px;
+}
+.heading10{
+  font-size: 20px;
+  text-align: start;
+}
+.users-card{
+  display:flex;
+  flex-direction: column;
+  background-color:#FBFCFF;
+  padding:30px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: 400px;
+}
+.headd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.paragraph5{
+  margin-right: 10px;
+}
+.line{
+  color:#12022f;
+}
+.labs{
+  width:50px;
+  margin:20px;
+}
+.parag{
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.trustes1{
+  display:flex;
+  width:250px;
+  flex-direction: column;
+  background-color: rgb(211, 236, 247);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.head2{
+  font-size:15px;
+}
+.straight{
+  display: flex;
+  flex-direction: row;
+}
+.labss{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 20px;;
+}
